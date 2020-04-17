@@ -116,17 +116,75 @@
             <label for="name">Name</label>
             <input type="text" class="form-control" placeholder="Enter your name">
           </div>
+
           <div class="form-group">
             <label for="email">Email</label>
             <input type="email" class="form-control" placeholder="Enter your email">
           </div>
+
           <div class="form-group">
             <label for="message">Message</label>
             <textarea name="message" class="form-control" placeholder="Enter message"></textarea>
           </div>
+
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select name="gender" class="form-control">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="file">Upload file</label>
+            <input type="file" class="form-control">
+            <p class="help-block">Only .JPG and .PNG file</p>
+          </div>
+          <button class="btn btn-primary">Save</button>
         </form>
       </div>
 
+    </div>
+    <hr>
+    <div class="container">
+      <table class="table table-bordered table-striped table-hover table-condensed">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr class="success">
+          <td>Shedrack</td>
+          <td>Godson</td>
+          <td>23</td>
+        </tr>
+        <tr class="primary">
+          <td>Tabitha</td>
+          <td>Godson</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Seth</td>
+          <td>Godson</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>Obadia</td>
+          <td>Godson</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>Edward</td>
+          <td>Godson</td>
+          <td>29</td>
+        </tr>
+        <tr>
+          <td>Abednego</td>
+          <td>Godson</td>
+          <td>20</td>
+        </tr>
+      </table>
     </div>
     <div style="height: 400px;"></div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
